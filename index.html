@@ -280,7 +280,7 @@
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">
           <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
           <div class="border-start border-2 border-primary ps-3">
-            <h3 class="text-5">Sr. Full Stack Developer</h3>
+            <h3 class="text-5">Senior Software Engineer</h3>
             <p class="mb-2">Doodleblue Innovation Pvt Ltd / 2021 - Current</p>
             <p class="text-muted">Now I am woking as a Sr Full Stack Developer using MERN stack and Python Django.</p>
             <hr class="my-4">
@@ -495,6 +495,30 @@
     function closeNav() {
       document.getElementById("myNav").style.width = "0%";
     }
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCPvto0HgBr9rw48CXUIWWJ-z9hEqn8Zcc",
+      authDomain: "narasim-3be6d.firebaseapp.com",
+      databaseURL: "https://narasim-3be6d.firebaseio.com",
+      projectId: "narasim-3be6d",
+      storageBucket: "narasim-3be6d.appspot.com",
+      messagingSenderId: "274811677249",
+      appId: "1:274811677249:web:0a7458b4797d6bccb9f4c0",
+      measurementId: "G-LBQVJWV58E"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
 </body>
 
